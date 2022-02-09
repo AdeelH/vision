@@ -25,3 +25,9 @@ from torchvision.models.regnet import regnet_y_400mf, regnet_y_800mf, \
 # segmentation
 from torchvision.models.segmentation import fcn_resnet50, fcn_resnet101, \
     deeplabv3_resnet50, deeplabv3_resnet101, deeplabv3_mobilenet_v3_large, lraspp_mobilenet_v3_large
+
+# detection
+from torchvision.models.detection import (
+    fasterrcnn_resnet50_fpn, fasterrcnn_mobilenet_v3_large_fpn,
+    fasterrcnn_mobilenet_v3_large_320_fpn, ssd300_vgg16,
+    ssdlite320_mobilenet_v3_large, retinanet_resnet50_fpn)
