@@ -65,3 +65,8 @@ from torchvision.models.vision_transformer import (
     vit_l_16,
     vit_l_32,
 )
+# detection
+from torchvision.models.detection import (
+    fasterrcnn_resnet50_fpn, fasterrcnn_mobilenet_v3_large_fpn,
+    fasterrcnn_mobilenet_v3_large_320_fpn, ssd300_vgg16,
+    ssdlite320_mobilenet_v3_large, retinanet_resnet50_fpn)
